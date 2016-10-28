@@ -1,0 +1,5 @@
+people_statistics = {
+  ages: { twenty_or_younger: 2, over_twenty: 3 },
+  eye_color: {blue: 1, green: 1, brown: 4 },
+  hometown: { "Newport Beach" => 4, "Boston" => 2 }
+}

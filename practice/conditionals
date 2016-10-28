@@ -1,0 +1,6 @@
+age = 98
+if age < 21
+puts "You must be 21 to come into this bar!"
+else
+puts "Well, come on in!"
+end
