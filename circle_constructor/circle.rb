@@ -12,6 +12,3 @@ class Circle
 end
 
 new_circle = Circle.new({diameter: 12})
-
-require 'pry'
-binding.pry

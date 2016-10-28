@@ -22,7 +22,4 @@ class Person
   end
 end
 
-aimee = Person.new('Aimee', 'Lynn', 'Bachari')
-
-require 'pry'
-binding.pry
+aimee = Person.new('Aimee Lynn Bachari')

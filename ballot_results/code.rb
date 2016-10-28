@@ -81,4 +81,4 @@ vote_counts = [
   sally_jane_votes
 ]
 winners_count = vote_counts.max
-puts "The winner is #{candidates[vote_counts.index(winners_count)]}, with #{winners_count} votes"
+puts "The winner is #{candidates[vote_counts.index(winners_count)]}, with #{winners_count} votes."
