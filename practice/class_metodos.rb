@@ -1,7 +1,9 @@
 class Car
-  attr_reader :vin, :price, :make, :model, :year, :trim
+  attr_reader :vin, :price, :make, :year, :trim
+  attr_accessor :trunk, :model
   def initialize(vin, price, make, model, year, trim)
     @vin, @price, @make, @model, @year, @trim = vin, price, make, model, year, trim
+    @trunk = []
   end
 
   def self.count_all_cars

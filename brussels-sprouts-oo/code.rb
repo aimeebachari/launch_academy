@@ -54,7 +54,7 @@ class Recipe
     @ingredients.each do |ingredient|
       recipe_summary += "-#{ingredient.summary}\n"
     end
-    recipe_summary +="Instructions\n"
+    recipe_summary += "Instructions\n"
     @instructions.each_with_index do |instruction, index|
       recipe_summary += "#{index + 1}. #{instruction}\n"
     end
